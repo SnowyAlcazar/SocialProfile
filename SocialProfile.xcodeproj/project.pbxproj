@@ -14,6 +14,8 @@
 		411631F82B1F3F6700C85673 /* SocialProfileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411631F72B1F3F6700C85673 /* SocialProfileTests.swift */; };
 		411632022B1F3F6700C85673 /* SocialProfileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411632012B1F3F6700C85673 /* SocialProfileUITests.swift */; };
 		411632042B1F3F6700C85673 /* SocialProfileUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411632032B1F3F6700C85673 /* SocialProfileUITestsLaunchTests.swift */; };
+		411632112B1F8CDB00C85673 /* Previews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411632102B1F8CDB00C85673 /* Previews.swift */; };
+		411632132B1F8D3B00C85673 /* CircularImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411632122B1F8D3B00C85673 /* CircularImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		411631FD2B1F3F6700C85673 /* SocialProfileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialProfileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		411632012B1F3F6700C85673 /* SocialProfileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialProfileUITests.swift; sourceTree = "<group>"; };
 		411632032B1F3F6700C85673 /* SocialProfileUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialProfileUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		411632102B1F8CDB00C85673 /* Previews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Previews.swift; sourceTree = "<group>"; };
+		411632122B1F8D3B00C85673 /* CircularImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,7 @@
 				411631E82B1F3F6200C85673 /* ContentView.swift */,
 				411631EA2B1F3F6500C85673 /* Assets.xcassets */,
 				411631EC2B1F3F6500C85673 /* Preview Content */,
+				411632122B1F8D3B00C85673 /* CircularImage.swift */,
 			);
 			path = SocialProfile;
 			sourceTree = "<group>";
@@ -106,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				411631ED2B1F3F6500C85673 /* Preview Assets.xcassets */,
+				411632102B1F8CDB00C85673 /* Previews.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -258,6 +264,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				411631E92B1F3F6200C85673 /* ContentView.swift in Sources */,
+				411632112B1F8CDB00C85673 /* Previews.swift in Sources */,
+				411632132B1F8D3B00C85673 /* CircularImage.swift in Sources */,
 				411631E72B1F3F6200C85673 /* SocialProfileApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
